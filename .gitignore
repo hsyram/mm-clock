@@ -1,0 +1,51 @@
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# ignore any signing property or keystore files
+*signing.properties
+*.keystore
+
+# generated files
+bin/  
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# Fabric framework
+/app/fabric.properties
+
+# ignore the releases folder
+/release/releases
+
+# ignore the captures folder
+/captures/
+
+*.log
